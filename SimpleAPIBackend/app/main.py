@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return jsonify(message="Let's test Cloud Build again!!")
+    return jsonify(message="Time to clean up the code!!")
 
 @app.route('/api/data', methods=['POST'])
 def get_data():

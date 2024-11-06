@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return jsonify(message="Hello world. This is the 3rd verison of the simple API")
+    return jsonify(message="The automatic deploy application should enable this version fo code to be merged to uat-0.2 branch.")
 
 @app.route('/api/data', methods=['POST'])
 def get_data():

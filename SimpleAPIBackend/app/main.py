@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return jsonify(message="Time to clean up the code!!")
+    return jsonify(message="Now let's try to deploy to production environment with auto deploy application!!!")
 
 @app.route('/api/data', methods=['POST'])
 def get_data():
